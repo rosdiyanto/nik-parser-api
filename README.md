@@ -27,13 +27,13 @@ services:
   nik-parser-api:
     container_name: nik-parser-container
     build: .
+    image: nik-parser:latest
     ports:
-      - "3000:3000"  # Memetakan port 3000 di host ke port 3000 di container
+      - "3000:3000"    # Mapping port host 3001 ke port container 3000
     environment:
-      - API_KEY=your_super_secret_api_key  # API key untuk otentikasi akses aplikasi
-      - PORT=3000                          # Port yang digunakan oleh aplikasi di container
+      API_KEY: your_super_secret_api_key  # API key untuk otentikasi
+      PORT: 3000                          # Port aplikasi di container
     restart: unless-stopped
-
 ```
 
 3. Jalankan container dengan Docker Compose:
