@@ -119,7 +119,3 @@ atau jika error:
 ## Lisensi
 
 MIT License
-
----
-
-Jika butuh bantuan tambahan, silakan hubungi saya.
