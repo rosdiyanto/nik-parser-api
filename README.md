@@ -16,8 +16,8 @@ API sederhana untuk parsing dan validasi Nomor Induk Kependudukan (NIK) Indonesi
 1. Clone repository ini:
 
 ```bash
-git clone <repo-url>
-cd <folder-repo>
+git clone https://github.com/rosdiyanto/nik-parser-api.git
+cd nik-parser-api
 ```
 
 2. Pastikan ada file `docker-compose.yml` di folder project dengan isi:
